@@ -2,22 +2,35 @@ import turtle
 
 #Dictionaries visualization lab (using turtle)
 
-addressbook = {'sally': 5, 'alex': 8, 'carly': 2}
+#   TODO:
+#   add gridlines
+
+sally = turtle.Turtle()
+sally.shape("turtle")
+sally.color("blue")
+sally.setpos(100, 0)
+
+alex = turtle.Turtle()
+alex.shape("turtle")
+alex.color("green")
+alex.setpos(160, 80)
+
+addressbook = {'sally': 5, 'carly': 2}
 
 bob = turtle.Turtle()
-turtle.Screen().bgcolor("black")
-turtle.color("white")
-turtle.shape("turtle")
+bob.shape("turtle")
 for num in range(addressbook['sally']):    #bob moves forward the number of steps it takes to get to sally
     bob.forward(20)
 
-sally_address = [5, 3]
-alex_address = [8, 4]
-carly_address = [2, 2]
+# with lists (turtle goes in 2+ directions)
 
-addressbook2 = {'sally': sally_address,
-                'alex': alex_address,
-                'carly': carly_address}
+bob.setpos(0, 0)
+
+alex_address = [8, 4]
+dave_address = [2, 2]
+
+addressbook2 = {'alex': alex_address,
+                'dave': dave_address}
 
 for num in range((addressbook2['alex'])[0]):
     bob.forward(20)
