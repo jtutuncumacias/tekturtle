@@ -1,0 +1,32 @@
+import turtle
+
+loopy = turtle.Turtle()
+loopy.color("green")
+loopy.shape("turtle")
+
+# For each of the challenges below, write your code from scratch!
+#    Hint: The handout will be helpful :-)
+
+# Comment out or delete your code after finishing each challenge.
+
+# Challenge 1 - Draw a square with a side length of 40.
+
+
+
+# Challenge 2 - Draw a square with a side length of 40 using a for loop.
+
+
+
+# Challenge 3 - Draw a square with a side length of 50 using a for loop.
+
+
+
+# Challenge 4 - Draw a triangle with a side length of 15 using a for loop.
+
+
+
+# Challenge 5 - Draw an octagon (8 sides) with a side length of 15 using a for loop.
+
+
+
+# Challenge 6 - Draw a bigger circle using a for loop.
