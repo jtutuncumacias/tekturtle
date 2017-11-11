@@ -1,0 +1,11 @@
+addressbook = {"sally": 50, "carly": 20}
+circle(addressbook["sally"], 200, 10, fill="white")
+
+alex_address = [180, 40]
+dave_address = [200, 200]
+bob_address = [150, 300]
+addressbook2 = {'alex': alex_address,
+                'dave': dave_address,
+                "bob": bob_address}
+circle((addressbook2['alex'])[0], (addressbook2['alex'])[1], 10, fill="blue")
+circle((addressbook2['bob'])[0], (addressbook2['bob'])[1], 10, fill="green")
